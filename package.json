@@ -1,0 +1,17 @@
+{
+  "name": "team-task-manager",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack team task manager with JWT auth, RBAC, and PostgreSQL",
+  "scripts": {
+    "postinstall": "npm install --prefix ./server && npm install --prefix ./client",
+    "build": "npm run build --prefix ./client",
+    "start": "npm run db:migrate --prefix ./server && npm run start --prefix ./server",
+    "dev": "echo Run two terminals: npm run dev:server and npm run dev:client",
+    "dev:server": "npm run dev --prefix ./server",
+    "dev:client": "npm run dev --prefix ./client"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
