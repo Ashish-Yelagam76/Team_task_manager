@@ -2,7 +2,7 @@
 
 React + Express + Prisma + PostgreSQL with JWT auth and role-based access (Admin/Member).
 
-## Local run (beginner order)
+## Local run 
 
 1) Install Node.js 20+ and PostgreSQL (or use a hosted Postgres URL).  
 2) In repo root: `npm install`  
@@ -13,7 +13,7 @@ React + Express + Prisma + PostgreSQL with JWT auth and role-based access (Admin
    - Terminal B: `npm run dev:client`
 6) Open `http://localhost:5173`
 
-## Railway deploy (single service)
+## Railway deploy 
 
 1) Push this repo to GitHub  
 2) Railway → New Project → Deploy from GitHub  
@@ -25,7 +25,7 @@ React + Express + Prisma + PostgreSQL with JWT auth and role-based access (Admin
 5) Build: `npm run build`  Start: `npm run start`
 6) Create domain; test `/api/health` and the UI
 
-## Demo checklist (2–5 mins)
+## Demo checklist 
 
 - Signup/login
 - Create project (Admin)
